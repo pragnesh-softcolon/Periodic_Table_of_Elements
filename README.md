@@ -23,6 +23,3 @@ This app serves as an educational tool for anyone interested in exploring and le
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://pragneshkoli.rf.gd)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pragnesh-kolipatel-385133213)
 [![instagram](https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/developer_pragnesh)
-
-Feel free to update the links with your actual profile URLs.
-
