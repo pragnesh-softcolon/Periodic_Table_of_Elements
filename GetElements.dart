@@ -8,7 +8,7 @@ main() async {
   var extractMap = await getExtractMap();
 
   var gridList = List<Element>.filled(
-      kRowCount * kColCount, Element(0, '', '', x: 0, y: 0),
+      kRowCount * kColCount, const Element(0, '', '', x: 0, y: 0),
       growable: false);
   for (var element in kElementsList) {
     gridList[(element.x) * kRowCount + (element.y)] = element;
@@ -27,7 +27,7 @@ main() async {
     });
 
     var outputSink = outputFile.openWrite()
-      ..write(JsonEncoder.withIndent('  ').convert(elements));
+      ..write(const JsonEncoder.withIndent('  ').convert(elements));
     await outputSink.flush();
     await outputSink.close();
 

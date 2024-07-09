@@ -12,9 +12,11 @@ class TablePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey[900],
       appBar: AppBar(
-        title: Text('Periodic Table of Elements'),
+        title: const Text('Periodic Table of Elements',style: TextStyle(
+          decoration: TextDecoration.underline,
+        ),),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey[800],
+        backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(child: _buildTable(gridList)),
     );
@@ -33,8 +35,10 @@ class TablePage extends StatelessWidget {
       }
     }).toList();
     return SingleChildScrollView(
-      child: SizedBox(
+      child: Container(
         height: kRowCount * (kContentSize + (kGutterWidth * 2)),
+        width: kRowCount * (kContentSize + (kGutterWidth * 2)) * 1.8,
+        alignment: Alignment.center,
         child: GridView.count(
           crossAxisCount: kRowCount,
           children: tiles,
