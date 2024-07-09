@@ -1,16 +1,28 @@
-# element_app
 
-A new Flutter project to show periodic table
+# Periodic Table of Elements
+This application presents a comprehensive Periodic Table of Elements, designed with a user-friendly interface. Each element is displayed in its respective position within the table, and empty boxes are used to represent missing elements.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Key Features:
+- Interactive Periodic Table : Users can tap on any element to view detailed information about it.
+- Element Details: Upon selecting an element, users are shown key details including atomic number, symbol, atomic mass, and other essential properties.
+- Wikipedia Integration: Each element's detail view includes a URL link to its corresponding Wikipedia page, providing users with quick access to more extensive information.
 
-A few resources to get you started if this is your first Flutter project:
+This app serves as an educational tool for anyone interested in exploring and learning about the chemical elements in an organized and interactive manner.
+## Installation and Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+  git clone https://github.com/pragnesh-softcolon/Periodic_Table_of_Elements.git
+  cd Periodic_Table_of_Elements
+  flutter pub get
+  dart GetElements.dart
+  flutter run 
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔗 Let me know if you need any further details or modifications!
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://pragneshkoli.rf.gd)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pragnesh-kolipatel-385133213)
+[![instagram](https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/developer_pragnesh)
+
+Feel free to update the links with your actual profile URLs.
+
