@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "deploy": "netlify deploy --dir=build/web --prod"
-  }
-}
